@@ -1,0 +1,133 @@
+.background-login{
+    background-image: url(../assets/img/FundoLogin.png);
+    width: 60vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-login-black{
+    background-color: #121214;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login{
+    display: flex;
+}
+.subtitle-login{
+    color: #fff;
+    padding: 1rem;
+}
+
+.form-login{
+    width: 28vw;
+    height: 60vh;
+    background-color: #18181A;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.form-login h1{
+    color: #FFFFFF;
+}
+
+.form-login input{
+    margin: 8px;
+    padding: 0.6rem 1.5rem;
+    background-color: #121214;
+    color: #B9B9B9;
+    text-decoration: none;
+    width: 17vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+}
+
+
+h1{
+    font-family:'Raleway', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+.form-input{
+    margin-top: 1.5rem;
+    text-align: center;   
+}
+
+.cadastro-link, a{
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.form-login a{
+    color: #043451;
+    margin-left: 3.5rem;
+    text-decoration: none;
+}
+
+.Icon_Email,
+.Icon_senha{
+    width: 14px;
+    position: absolute;
+    top: 20px; 
+    left: 55px;
+}
+
+.input_icon{
+    position: relative;
+}
+
+.Logo{
+    width: 170px;
+    margin-bottom: 27px;
+    
+}
+
+.prime{
+    width: 110px;
+    margin-top: 33px;
+}
+
+.logoPorto{
+    
+}
+
+button{
+    width: 20vw;
+    text-align: center;
+    padding: 8px;
+    background: linear-gradient(243.46deg, #043451 16.66%, #043451 16.66%, #041B28 83.34%);
+    border-radius: 4px;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.button-enviar{
+    text-align: center;
+    position: relative;
+    top: 39px;
+}
